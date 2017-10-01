@@ -33,7 +33,7 @@ The Plugins permit to control such options:
 - **showSeconds** If this is set to true, the clock will show *seconds*. Use with compatible *clockFace*
 - **dateTime**: Start or End date depending if *countdown* set. Use with compatible *clockFace*.
 - **numbers**: To use with clockFace *General counter*
-- **Timezone**: To set desired base timezone
+- **Timezone**: To set desired base timezone. Use with compatible *clockFace*.
 
 Allow multi FlipClock by page, but not recommended by the fact such JS plugin
 use CPU!
