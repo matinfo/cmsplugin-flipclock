@@ -7,7 +7,7 @@ from cms.models.pluginmodel import CMSPlugin
 
 from timezone_field import TimeZoneField
 
-from .settings import *
+from .settings import CLOCKFACE_CHOICES, DEFAULT_CLOCKFACE_CHOICE
 
 
 class FlipClockPlugin(CMSPlugin):

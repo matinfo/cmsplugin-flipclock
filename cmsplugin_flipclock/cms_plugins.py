@@ -10,6 +10,7 @@ from cms.plugin_pool import plugin_pool
 from . import models
 
 
+@plugin_pool.register_plugin
 class FlipClockPlugin(CMSPluginBase):
     render_template = 'cmsplugin_flipclock/flipclock.html'
     allow_children = False
@@ -34,5 +35,3 @@ class FlipClockPlugin(CMSPluginBase):
             'classes': ('collapse',)
         }),
     )
-
-plugin_pool.register_plugin(FlipClockPlugin)

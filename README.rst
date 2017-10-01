@@ -1,7 +1,7 @@
 CMS Plugin Flipclock
 ====================
 
-Django-CMS plugin to add easily FlipClock jQuery Plugin made by
+Django-CMS plugin to add easily FlipClock jQuery made by
 `Objective HTML <https://objectivehtml.com/>`_
 and `Justin Kimbrell <https://twitter.com/justin_kimbrell>`_.
 
@@ -20,7 +20,7 @@ making it responsive ready.
 
 Find FlipClock.js project full documentation and live demo on http://flipclockjs.com/.
 
-Example with Daily Counter:
+Example with Daily Counter and custom style:
 
 .. image:: preview.png
 
@@ -30,14 +30,14 @@ The Plugins permit to control such options:
 - **autoPlay**: If this is set to false, the clock will not automatically add the play class to start the animation
 - **autoStart**: If this is set to false, the clock will not auto start
 - **countdown**: If this is set to true, the clock will count down instead of up
-- **showSeconds** If this is set to true, the clock will show *seconds*. Use with compatible with *clockFace*
+- **showSeconds** If this is set to true, the clock will show *seconds*. Use with compatible *clockFace*
 - **dateTime**: Start or End date depending if *countdown* set. Use with compatible *clockFace*.
 - **numbers**: To use with clockFace *General counter*
 
 Allow multi FlipClock by page, but not recommended by the fact such JS plugin
-take lot of CPU!
+use CPU!
 
-Each ClickFlip expose **clock** JS global variable for API manipulations.
+Each ClickFlip expose **clock_<PLUGIN_ID>** JS global variable for API manipulations.
 
 Django CMS Plugin setup screen:
 
